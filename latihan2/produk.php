@@ -3,9 +3,11 @@ require_once __DIR__ . '/helpers/functions.php';
 require_once __DIR__ . '/views/header.php';
 
 $produk = [
-    ['nama' => 'Laptop', 'harga' => 7500000, 'deskripsi' => 'Laptop ringan untuk kuliah dan pemrograman sehari-hari dengan baterai awet.'],
+    ['nama' => 'Laptop', 'harga' => 7500000, 'deskripsi' => 'Laptop ringan untuk kuliah dan pemrograman
+     sehari-hari dengan baterai awet.'],
     ['nama' => 'Mouse', 'harga' => 150000, 'deskripsi' => 'Mouse nirkabel.'],
-    ['nama' => 'Keyboard', 'harga' => 350000, 'deskripsi' => 'Keyboard mekanik dengan lampu latar dan tombol yang nyaman untuk mengetik lama.'],
+    ['nama' => 'Keyboard', 'harga' => 350000, 'deskripsi' => 'Keyboard mekanik dengan lampu latar dan
+     tombol yang nyaman untuk mengetik lama.'],
 ];
 ?>
 <section class="content">

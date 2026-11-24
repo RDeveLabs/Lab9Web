@@ -1,7 +1,6 @@
 <?php
 require_once __DIR__ . '/../../config/database.php';
 
-// Isi utama dipindahkan dari index.php Praktikum 8.
 $sql = 'SELECT * FROM data_barang';
 $result = mysqli_query($conn, $sql);
 ?>

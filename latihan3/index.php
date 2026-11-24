@@ -1,7 +1,6 @@
 <?php
 require_once __DIR__ . '/helpers/functions.php';
 
-// Whitelist rute: hanya halaman di daftar ini yang boleh dibuka
 $routes = [
     'home' => __DIR__ . '/views/home.php',
     'profil' => __DIR__ . '/views/profil.php',

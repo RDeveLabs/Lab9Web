@@ -1,6 +1,4 @@
 <?php
-// Koneksi dipindahkan dari koneksi.php Praktikum 8.
-// Host, user, password, dan database dipertahankan seperti project asli.
 $host = "localhost";
 $user = "root";
 $pass = "";
