@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../../config/database.php';
+
 error_reporting(E_ALL);
 
 if (isset($_POST['submit'])) {

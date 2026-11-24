@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../../config/database.php';
+
 // Penghapusan menggunakan POST sesuai catatan keamanan pada modul Praktikum 9.
 if (isset($_POST['submit']) && isset($_POST['id'])) {
     $id = $_POST['id'];
