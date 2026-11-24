@@ -45,7 +45,11 @@ if (!$data) die('Error: Data tidak tersedia');
 ?>
 <section class="main">
     <h2>Ubah Barang</h2>
-    <form method="post" action="index.php?page=user/edit&id=<?= urlencode($data['id_barang']); ?>" enctype="multipart/form-data">
+    <form
+        method="post"
+        action="index.php?page=user/edit&id=<?= urlencode($data['id_barang']); ?>"
+        enctype="multipart/form-data"
+    >
         <div class="input">
             <label>Nama Barang</label>
             <input type="text" name="nama" value="<?= htmlspecialchars($data['nama']); ?>">
